@@ -15,6 +15,7 @@ public class SpringbootJenkinsApplication {
 	@PostConstruct
 	public void init() {
 		logger.info("Executing Init Method: ");
+		logger.info("Init Method Execution Second Attempt: ");
 		System.out.println("Init method executed");
 	}
 

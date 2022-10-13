@@ -14,7 +14,6 @@ class SpringbootJenkinsApplicationTests {
 	Logger logger = (Logger) LoggerFactory.getLogger(SpringbootJenkinsApplicationTests.class);
 	@Test
 	void contextLoads() {
-		
 		assertEquals(true, true);
 	}
 
